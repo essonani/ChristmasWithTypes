@@ -1,6 +1,6 @@
 ﻿using System;
-
 namespace ChristmasWithTypes
+
 {
     class Program
     {
@@ -8,16 +8,16 @@ namespace ChristmasWithTypes
         {
             var xmas = new Christmas();
 
-            var xmasDay = Christmas.Day.Thursday;
+            var xmasDay = Christmas.Day.thursday;
 
             //TODO set Santa's name to Kris Kringle
             xmas.Santa = "Kris Kringle";
 
             //TODO Insert 3 presents you would like for xmas.  They must be strings
-            xmas.Presents =  new string[3]{xbox,nintendo Switch,Iphone x }; 
+            xmas.Presents = new string[3] { "xbox" ,"nintendo switch","iphone x"};
 
             //TODO Set the TreeHeight to 10
-            xmas.TreeHeight = 10 feet high;
+            xmas.TreeHeight = 10 ;
 
             Console.WriteLine($"This year christmas falls on {xmasDay} \n");
             Console.WriteLine($"Our tree will be {xmas.TreeHeight} feet high \n");
